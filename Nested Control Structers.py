@@ -32,3 +32,4 @@ for i in range(num_people):
         sum = sum + score
     average = float(sum) / test_per_person
     print("    Average for " + name + ":" + str(round(average, 2)))
+
