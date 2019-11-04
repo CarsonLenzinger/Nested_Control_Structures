@@ -11,6 +11,7 @@ for i in range(3):
     for l in range(2):
         print("     Inner For Loop: " + str(l))
 
+
 print("\n*************************************************************")
 
 ''' 
@@ -32,4 +33,24 @@ for i in range(num_people):
         sum = sum + score
     average = float(sum) / test_per_person
     print("    Average for " + name + ":" + str(round(average, 2)))
+
+
+
+print("\n****************************\n")
+
+
+'''
+Programmer: Carson Lenzinger
+Date: 10.23.19
+Program: ForLoop + WhileLoop
+
+This program will create a For Loop with a While Loop embedded into it
+'''
+
+for i in range(4):
+    print("Outer For Loop: " + str(i))
+    x = 1
+    while x >= 0:
+        print("     While Loop: " + str(x))
+        x = x - 1
 
